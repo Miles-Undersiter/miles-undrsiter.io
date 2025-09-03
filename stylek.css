@@ -1,0 +1,66 @@
+*{
+	box-sizing:border-box;
+}
+html{
+	
+	font-family: sans-serif;
+   text-align: justify;
+	color: gray;
+}
+body{
+	width: 1200px;
+	margin: 0 auto;
+}
+#naglowek{
+	padding: 10px;
+	text-align: center;
+	background-color:fuchsia;
+}
+#lewa{
+	width: 200px;
+	float:left;
+	background-color:lime;
+	padding: 5px;
+	height: 400px;
+	
+	
+}
+#prawa{
+	width: 1000px;
+	background-color:aqua;
+	float: left;
+	padding: 5px;
+	height: 400px;
+	overflow: scroll;
+}
+#menu{
+	background-color: blue;
+	clear: left;
+}
+#stopka{
+	text-align: center;
+	padding: 10px;
+	background-color: ActiveCaption;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	font-weight: 900;
+}
+.nigdy:hover{
+	background-color: fuchsia;
+	color: white;
+}
+p{
+	line-height: 1.8;
+	text-indent: 50px;
+}
+p::first-letter{
+	font-size: 2000000000000000000px;
+	color: yellow;
+}
+p::before{
+	content: "Akapit";
+	color: fuchsia;
+}
